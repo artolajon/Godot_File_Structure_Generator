@@ -22,6 +22,9 @@ if not exist "%directory%" (
 
 :: Create folders
 mkdir "%directory%\assets"
+mkdir "%directory%\assets\fonts"
+mkdir "%directory%\assets\sprites"
+mkdir "%directory%\assets\music"
 mkdir "%directory%\scripts"
 mkdir "%directory%\scenes"
 
